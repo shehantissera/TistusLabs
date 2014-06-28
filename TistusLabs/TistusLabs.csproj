@@ -114,6 +114,12 @@
   <ItemGroup>
     <Resource Include="Images\birdy.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Users\Shehan\Documents\Visual Studio 2013\Projects\TourManager\CommonLib\CommonLib.csproj">
+      <Project>{e636da5d-557c-44a8-92b4-6fae47757c5a}</Project>
+      <Name>CommonLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
